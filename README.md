@@ -43,6 +43,8 @@ Each query is routed to a specialized agent throug router agent where it determi
 | `limitations` | Limittions, critics, threats to validity |
 | `general` | Everything else |
 
+### Architecture
+![image](data/architecture.png)
 
 # File names
 
