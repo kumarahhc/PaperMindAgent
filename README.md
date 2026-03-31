@@ -35,12 +35,12 @@ python query.py
 Type your question at the prompt and press Enter. Type `exit` or `quit` to stop.
 
 ### How it works
-Each query is routed to a specialized agent:
+Each query is routed to a specialized agent throug router agent where it determine which agent should contact based on the content of the query:
 | Route | Handles |
 |-------|---------|
-| `methods` | Methodology, datasets, architectures, metrics |
-| `results` | Benchmark scores, comparisons, ablations |
-| `limitations` | Weaknesses, future work, threats to validity |
+| `methods` | Methodology, setup, datasets, architectures, metrics |
+| `results` | Results, comparisons, ablations, numbers|
+| `limitations` | Limittions, critics, threats to validity |
 | `general` | Everything else |
 
 
